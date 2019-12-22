@@ -4,7 +4,7 @@ plugins {
 
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 10
 
 repositories {
     mavenCentral()
@@ -22,6 +22,6 @@ test {
 
 jar {
     manifest {
-        attributes  "Main-Class": "jp.ac.uryukyu.ie.tnal.Example"
+        attributes  "Main-Class": "jp.ac.uryukyu.ie.e195746.Main"
     }
 }
